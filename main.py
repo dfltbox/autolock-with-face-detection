@@ -27,6 +27,8 @@ def checkface():
         time.sleep(1)
         global doidie
         if(facewasdetected or doidie): 
+            if(debug):
+                print('Face found! Lock cancelled.')
             break
         if(count == locktime):
             ctypes.windll.user32.LockWorkStation()
@@ -34,7 +36,7 @@ def checkface():
         else:
             count += 1
             if(debug):
-                print(f'time until lock: ${count}')
+                print(f'time until lock: ${locktime - count}')
 
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
