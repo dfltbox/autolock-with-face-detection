@@ -5,7 +5,7 @@ import ctypes
 
 
 #Logs a bunch of stuff to console if enabled
-debug = True
+debug = False
 #Amount of seconds until it locks when idle
 locktime = 20
 #Stops drawing rectangles over recognized faces if enabled
@@ -13,7 +13,7 @@ dontdraw = False
 #Disables face recognition window if enabled
 nowindow = False
 #Reduces cpu usage of the program but will reduce fps if enabled
-batterysaver = False
+batterysaver = True
 
 
 #DO NOT TOUCH
