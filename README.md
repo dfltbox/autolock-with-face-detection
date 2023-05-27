@@ -1,4 +1,4 @@
-# Face recognition autolock
+# Face detection autolock
 
 Uses face recognition to detect if someone is using the device and locks after a certain period of time
 **Only works with windows!**
