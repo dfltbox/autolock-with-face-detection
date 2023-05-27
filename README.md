@@ -8,7 +8,6 @@ Uses face recognition to detect if someone is using the device and locks after a
 
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
