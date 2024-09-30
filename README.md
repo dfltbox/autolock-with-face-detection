@@ -25,7 +25,5 @@ Uses face recognition to detect if someone is using the device and locks after a
 
 Feel free to contribute! This was a mess I created in 2 hours so there's probably gonna be bugs, so if you find any or just want to add a feature, open a PR!
 
-Feel free to add new features too, just open an issue first!
-
 ## License
-MIT, feel free to do whatever with it
+MIT, feel free to do whatever
